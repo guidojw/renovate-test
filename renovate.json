@@ -7,11 +7,5 @@
       "matchManagers": ["dockerfile", "nvm"],
       "groupName": "Node.js (non-major)"
     }
-  ],
-  "buildkite": {
-    "enabled": false
-  },
-  "docker-compose": {
-    "enabled": false
-  }
+  ]
 }
