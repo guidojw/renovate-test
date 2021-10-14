@@ -1,12 +1,37 @@
 {
-  "extends": ["config:base", ":disableDependencyDashboard"],
+  "extends": ["config:base", ":preserveSemverRanges", ":disableDependencyDashboard"],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchManagers": ["dockerfile", "nvm"],
-      "groupName": "Node.js (non-major)"
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["engines"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["node"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Node.js (non-major)",
+      "groupSlug": "nodejs"
+    },
+    {
+      "matchPackageNames": ["node"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "Node.js (major)",
+      "groupSlug": "nodejs"
     }
   ],
-  "ignoreUnstable": true
+  "buildkite": {
+    "enabled": false
+  },
+  "docker-compose": {
+    "enabled": false
+  }
 }
