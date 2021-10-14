@@ -11,11 +11,6 @@
       "groupSlug": "all-minor-patch"
     },
     {
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["engines"],
-      "enabled": false
-    },
-    {
       "matchManagers": ["dockerfile", "nvm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Node.js (non-major)",
