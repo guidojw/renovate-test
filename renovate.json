@@ -4,13 +4,6 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch"
-    },
-    {
       "matchManagers": ["dockerfile", "nvm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Node.js (non-major)",
