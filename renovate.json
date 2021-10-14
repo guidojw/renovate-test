@@ -7,5 +7,6 @@
       "matchManagers": ["dockerfile", "nvm"],
       "groupName": "Node.js (non-major)"
     }
-  ]
+  ],
+  "ignoreUnstable": true
 }
