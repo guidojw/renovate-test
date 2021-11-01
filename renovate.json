@@ -16,12 +16,12 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["node"],
+      "matchManagers": ["dockerfile", "nvm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Node.js (non-major)"
     },
     {
-      "matchPackageNames": ["node"],
+      "matchManagers": ["dockerfile", "nvm"],
       "matchUpdateTypes": ["major"],
       "groupName": "Node.js (major)"
     }
