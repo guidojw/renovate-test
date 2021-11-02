@@ -25,7 +25,8 @@
       "matchManagers": ["dockerfile", "nvm"],
       "matchUpdateTypes": ["major"],
       "groupName": "Node.js (major)",
-      "groupSlug": "nodejs"
+      "groupSlug": "nodejs",
+      "ignoreUnstable": true
     }
   ],
   "buildkite": {
