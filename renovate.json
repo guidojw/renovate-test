@@ -17,7 +17,7 @@
     },
     {
       "matchManagers": ["dockerfile", "nvm"],
-      "groupName": "Node.js (major)",
+      "groupName": "Node.js",
       "groupSlug": "nodejs",
       "ignoreUnstable": false
     },
