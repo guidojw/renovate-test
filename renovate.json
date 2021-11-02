@@ -26,7 +26,7 @@
       "matchUpdateTypes": ["major"],
       "groupName": "Node.js (major)",
       "groupSlug": "nodejs",
-      "ignoreUnstable": true
+      "ignoreUnstable": false
     }
   ],
   "buildkite": {
