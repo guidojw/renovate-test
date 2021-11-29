@@ -3,6 +3,7 @@
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
   "packageRules": [
     {
       "matchManagers": ["npm"],
