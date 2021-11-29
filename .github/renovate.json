@@ -2,6 +2,7 @@
   "extends": ["config:base", ":preserveSemverRanges", ":disableDependencyDashboard"],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
+  "prConcurrentLimit": 0,
   "packageRules": [
     {
       "matchManagers": ["npm"],
