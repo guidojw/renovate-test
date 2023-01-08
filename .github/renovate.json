@@ -13,7 +13,7 @@
         "uses\\s*:\\s*[\"']?ok-nick\\/setup-aftman@.+?\\s+-",
         "version\\s*:\\s*[\"']?(?<currentValue>[^\"'\\s]+)"
       ],
-      "depNameTemplate": "LPGhatguy\/aftman",
+      "depNameTemplate": "LPGhatguy/aftman",
       "datasourceTemplate": "github-releases"
     },
     {
