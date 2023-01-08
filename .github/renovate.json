@@ -10,7 +10,7 @@
       ],
       "matchStringsStrategy": "recursive",
       "matchStrings": [
-        "uses\\s*:\\s*[\"']?ok-nick\\/setup-aftman@.+?\\s+-",
+        "uses\\s*:\\s*[\"']?ok\\-nick\\/setup-aftman@.+?\\s+-",
         "version\\s*:\\s*[\"']?(?<currentValue>[^\"'\\s]+)"
       ],
       "depNameTemplate": "LPGhatguy/aftman",
