@@ -10,8 +10,8 @@
       ],
       "matchStringsStrategy": "recursive",
       "matchStrings": [
-        "uses\\s*:\\s*[\"']?ok-nick\\/setup-aftman@.+?\\n\\s+-",
-        "version\\s*:\\s*[\"']?(?<currentValue>[^\"'\\n]+)"
+        "uses\\s*:\\s*[\"']?ok-nick\\/setup-aftman@.+?\\s+-",
+        "version\\s*:\\s*[\"']?(?<currentValue>[^\"'\\s]+)"
       ],
       "depNameTemplate": "LPGhatguy\/aftman",
       "datasourceTemplate": "github-releases"
