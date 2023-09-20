@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Aftman
-        uses: ok-nick/setup-aftman@c52e3c91524316f8ca696574d576ea21b7518ec8 # tag=v0.3.0
+        uses: ok-nick/setup-aftman@e226f24209f47677da7b215bab44f6351a2c043b # v0.4.2
         with:
           version: v0.1.0
 
